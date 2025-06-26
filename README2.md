@@ -13,10 +13,14 @@ This document explains how to use the Eurostat Automation script for fetching an
 
 ---
 
+This script is designed to streamline the consolidation of trade data downloaded from the official Eurostat website. It accepts a folder containing multiple Excel files as input and processes them to generate a structured and unified dataset tailored to the user’s requirements.
+
+---
+
 ## 🛠️ Requirements
 
 Before running the script, install the following dependencies:
 
 ```bash
 pip install requests beautifulsoup4 pandas openpyxl
-This script is designed to streamline the consolidation of trade data downloaded from the official Eurostat website. It accepts a folder containing multiple Excel files as input and processes them to generate a structured and unified dataset tailored to the user’s requirements.
+
